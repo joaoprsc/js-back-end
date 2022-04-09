@@ -1,14 +1,9 @@
-const texto1 = "Olá, mundo!";
-const texto2 = 'Seja bem vindo';
-const senha = "1234567$#";
-const StringDeNumeros = "34567";
+const lastName = "Lovelace";
 
-const citacao = "Meu nome é ";
-const meuNome = "João Priscio";
-
-// fazer concatenação usar +
-
-console.log(citacao + meuNome);
+// use a notação de colchetes para encontrar o penúltimo caractere na lastNamestring.
+const secondToLastLetterOfLastName = lastName[lastName.length - 2];
+console.log(secondToLastLetterOfLastName);
 
 
-
+const myArray = [["Carol", 21], ["Jo", 45]];
+console.log(myArray)
